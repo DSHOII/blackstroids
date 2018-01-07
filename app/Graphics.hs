@@ -15,7 +15,6 @@ import FRP.Yampa
 import Linear (V2(..), V4(..))
 import Linear.Affine (Point(..))
 import qualified SDL
-import qualified Data.Vector.Storable as Vector
 
 -- Modules
 import ShapesAndTypes

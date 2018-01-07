@@ -26,13 +26,12 @@ main = animate "Blackstroids" (round gameWindowWidth) (round gameWindowHeight)
                                                  &&& handleExit))
 
 -- Data constructors to hold game state and initialisation functions.
-
 data Cube = Cube { cubePosition :: (Double, Double)
                  , cubeVelocity :: Double
                  }
 
 initiateCube :: Cube
-initiateCube = Cube (gameWindowHeight / 2, gameWindowWidth / 2) 0
+initiateCube = Cube (gameWindowWidth / 2, gameWindowHeight - 50) 0
 
 data Game = Game { gameCube :: Cube }
 
