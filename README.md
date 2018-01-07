@@ -9,9 +9,6 @@ https://github.com/helsinki-frp/yampy-cube
 
 ##### Development
 
-Blackstroids was written for PC on a Lenove Thinkpad X230 running ubuntu 16.04
-LTS.
-
 It is implemented in Haskell and the project was made with The Haskell Tool
 Stack. Get it here:
 
@@ -20,7 +17,7 @@ https://docs.haskellstack.org/en/stable/README/
 
 ##### How to run
 
-Go to the destination folder. Run:
+Clone and go to the destination folder. Run:
 
 _stack build_
 
